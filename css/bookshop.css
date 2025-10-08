@@ -598,6 +598,15 @@
   border: 2px solid var(--interaction-color, #2566F2);
   outline: none;
 }
+.c-text-input__input--readonly {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #B6B6B8;
+  cursor: not-allowed;
+}
+.c-text-input__input--readonly:focus {
+  border-color: rgba(255, 255, 255, 0.2);
+}
 
 .c-time-input {
   display: grid;
@@ -896,9 +905,9 @@
   justify-content: center;
   align-items: center;
   gap: var(--gap-normal);
-  --dynamic-fill-color: var(--fill-color, var(--main-text-color, #F9F9FB));
-  --dynamic-hover-color: var(--hover-color, var(--main-text-color, #F9F9FB));
-  --dynamic-fill-color-hover: var(--fill-color-hover, var(--main-background-color, #3B3B3D));
+  --dynamic-fill-color: var(--fill-color, var(--main-text-color, #f9f9fb));
+  --dynamic-hover-color: var(--hover-color, var(--main-text-color, #f9f9fb));
+  --dynamic-fill-color-hover: var(--fill-color-hover, var(--main-background-color, #3b3b3d));
 }
 .c-social-icons__icon {
   transition: background-color 300ms ease-out, fill 300ms ease-out;
@@ -1038,6 +1047,7 @@
   row-gap: var(--gap-extra-large);
   align-items: flex-start;
   text-align: left;
+  /* Reduce gap when there's no heading */
   /* Desktop view */
 }
 .c-form__form {
@@ -1049,6 +1059,11 @@
 .c-form--content-align-center {
   place-items: center;
   text-align: center;
+}
+.c-form--no-heading {
+  row-gap: var(--gap-large);
+  padding-top: var(--gap-large);
+  padding-bottom: var(--gap-large);
 }
 @media screen and (min-width: 769px) {
   .c-form__heading {
@@ -1319,9 +1334,32 @@
   display: flex;
   flex-direction: column;
   gap: var(--gap-large);
+  /* Two-column layout for form fields */
 }
 .c-form-builder__submit-button {
   text-align: center;
+}
+.c-form-builder--two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-large) var(--gap-medium);
+  /* Full-width items span both columns */
+  /* Submit button spans both columns */
+  /* Mobile: single column */
+}
+.c-form-builder--two-column .c-form-builder__full-width {
+  grid-column: 1/-1;
+}
+.c-form-builder--two-column__submit-button {
+  grid-column: 1/-1;
+}
+@media screen and (max-width: 768px) {
+  .c-form-builder--two-column {
+    grid-template-columns: 1fr;
+  }
+  .c-form-builder--two-column .c-form-builder__full-width {
+    grid-column: 1;
+  }
 }
 
 .c-gallery {

@@ -13,6 +13,7 @@ blueprint:
   inbox_key:
   subject:
   success_page: ""
+  layout: single-column
   form_elements: [bookshop:structure:form_blocks]
   submit_button:
     text: "Button text"

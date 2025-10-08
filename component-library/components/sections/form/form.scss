@@ -19,6 +19,13 @@
         text-align: center;
     }
 
+    /* Reduce gap when there's no heading */
+    &--no-heading {
+        row-gap: var(--gap-large);
+        padding-top: var(--gap-large);
+        padding-bottom: var(--gap-large);
+    }
+
     /* Desktop view */
     @media screen and (min-width: 769px) {
         &__heading {

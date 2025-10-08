@@ -1,5 +1,9 @@
 {% assign_local c = "c-form" %}
-<section {% if content.id %}id="{{ content.id }}"{% endif %} class="{{ c }} {{ c }}--content-align-{{ styles.content_alignment }} component component--{{ styles.color_group }}" >
+{% assign has_heading = false %}
+{% if content.heading.primary_heading or content.heading.eyebrow_headline or content.description %}
+    {% assign has_heading = true %}
+{% endif %}
+<section {% if content.id %}id="{{ content.id }}"{% endif %} class="{{ c }} {{ c }}--content-align-{{ styles.content_alignment }} {% unless has_heading %}{{ c }}--no-heading{% endunless %} component component--{{ styles.color_group }}" >
 
     {% if content.heading or content.description %}
         <div class="component__heading {{ c }}__heading">

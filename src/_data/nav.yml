@@ -1,11 +1,11 @@
 nav_logo_image: /assets/uploads/venture-logo.svg
 logo_text: Venture
 navigation_items:
-  - label: Our Services
-    link_url: /#services
+  - label: Schedule a Tour
+    link_url: /schedule-tour
     open_in_new_tab: false
-  - label: Book Now
-    link_url: /booking
+  - label: Join Wait List
+    link_url: /join-waitlist
     open_in_new_tab: false
   - label: Contact Us
     link_url: /contact

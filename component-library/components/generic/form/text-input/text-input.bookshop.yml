@@ -13,6 +13,8 @@ blueprint:
   placeholder: ""
   id:
   required: false
+  hidden: false
+  readonly: false
   helper_text:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser

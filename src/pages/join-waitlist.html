@@ -1,30 +1,30 @@
 ---
 _schema: default
 draft: false
-title: Contact
+title: Join Wait List
 page_description:
 featured_image:
   image_path:
   image_alt:
 layout: layouts/page.html
-permalink: /contact/
+permalink: /join-waitlist/
 eleventyExcludeFromCollections: false
 hero:
   _bookshop_name: sections/hero--simple
   content:
     heading:
       _bookshop_name: generic/heading
-      eyebrow_headline: Contact Us
-      primary_heading: Get In Touch
+      eyebrow_headline: Join Wait List
+      primary_heading: Get Priority Access
       eyebrow_headline_hierarchy: h3
       primary_heading_hierarchy: h1
-    description: Etiam pharetra pulvinar erat, vel consectetur risus congue non. Etiam volutpat leo quis consequat condimentum.
+    description: Join our waitlist to be the first to know about new units and get priority access to Lincoln Court Townhomes.
   styles:
     color_group: primary
 content_blocks:
   - _bookshop_name: sections/form
     content:
-      id: contact-form
+      id: join-waitlist-form
       heading:
         _bookshop_name: generic/heading
         eyebrow_headline: 
@@ -37,13 +37,13 @@ content_blocks:
         id:
         form_submission_type: email/cloudcannon
         inbox_key:
-        subject: New Contact Form Submission
+        subject: New Waitlist Signup
         success_page: ''
         layout: two-column
         form_elements:
           - _bookshop_name: generic/form/text-input
             label: Form Type
-            placeholder: Contact Us
+            placeholder: Join Wait List
             id: form_type
             required: false
             hidden: false
@@ -129,58 +129,54 @@ content_blocks:
       id:
       heading:
         _bookshop_name: generic/heading
-        eyebrow_headline: Bite-sized information
-        primary_heading: An image card grid
+        eyebrow_headline: Waitlist Benefits
+        primary_heading: Why Join Our Waitlist?
         eyebrow_headline_hierarchy: h3
         primary_heading_hierarchy: h2
       description: >-
-        These image cards combine a short written message and a strong visual
-        image.
+        Be the first to know about new opportunities and get exclusive access to Lincoln Court Townhomes.
       grid_items:
         - image:
             _bookshop_name: generic/image
             image_path: /assets/images/gallery/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg
-            image_alt: Three people at a table laughing and using their laptops
+            image_alt: Priority access to new units
             image_sizes:
           heading:
             _bookshop_name: generic/heading
-            eyebrow_headline: Eyebrow Heading
-            primary_heading: Primary Heading
+            eyebrow_headline: Priority Access
+            primary_heading: First to Know
             eyebrow_headline_hierarchy: h3
             primary_heading_hierarchy: h2
           description: >-
-            These versatile cards can be used to talk about your services or
-            products, or anything else you are keen to share with your audience.
+            Get notified immediately when new units become available and have first access to view and apply.
           buttons: []
         - image:
             _bookshop_name: generic/image
             image_path: /assets/images/gallery/brooke-cagle-X4RJG4aNi8o-unsplash.jpg
-            image_alt: Pouring milk into a coffee in a café
+            image_alt: Exclusive opportunities
             image_sizes:
           heading:
             _bookshop_name: generic/heading
-            eyebrow_headline: Eyebrow Heading
-            primary_heading: Primary Heading
+            eyebrow_headline: Exclusive Access
+            primary_heading: Special Opportunities
             eyebrow_headline_hierarchy: h3
             primary_heading_hierarchy: h2
           description: >-
-            These versatile cards can be used to talk about your services or
-            products, or anything else you are keen to share with your audience.
+            Receive exclusive updates about special offers, events, and limited-time opportunities at Lincoln Court.
           buttons: []
         - image:
             _bookshop_name: generic/image
             image_path: /assets/images/gallery/brooke-cagle-WHWYBmtn3_0-unsplash.jpg
-            image_alt: Person smiling at laptop
+            image_alt: Personalized service
             image_sizes:
           heading:
             _bookshop_name: generic/heading
-            eyebrow_headline: Eyebrow Heading
-            primary_heading: Primary Heading
+            eyebrow_headline: Personalized Service
+            primary_heading: Dedicated Support
             eyebrow_headline_hierarchy: h3
             primary_heading_hierarchy: h2
           description: >-
-            These versatile cards can be used to talk about your services or
-            products, or anything else you are keen to share with your audience.
+            Our team will work with you to find the perfect unit and guide you through the application process.
           buttons: []
       buttons: []
     styles:
@@ -191,23 +187,21 @@ content_blocks:
     content:
       id:
       display_social_icons: true
-      heading: A contact block
+      heading: Waitlist Information
       description: >-
-        This is a simple yet powerful block to display not only your location by
-        using OpenStreetMaps, but also any other contact details you wish to
-        share with your customers.
+        Ready to join our waitlist? Contact us directly or sign up online to secure your spot.
       contact_details:
         - _type: Email
-          text: 'Email address: mybusiness@example.com'
+          text: 'Email: waitlist@lincolncourt.com'
           hero_library_icon_name: envelope
         - _type: Phone
-          text: 'Phone number: 312 325 326'
+          text: 'Phone: (555) 123-4567'
           hero_library_icon_name: phone
         - _type: Address
-          text: 'Address: 1 Fake St, Faketown'
+          text: 'Address: 123 Lincoln Court Drive'
           hero_library_icon_name: map-pin
         - _type: Hours
-          text: 'Opening hours: 9-5pm, Monday to Friday'
+          text: 'Office Hours: 9 AM - 5 PM, Monday to Saturday'
           hero_library_icon_name: clock
       map:
         _bookshop_name: simple/map
@@ -216,9 +210,9 @@ content_blocks:
         zoom_level: 9
       buttons:
         - _bookshop_name: generic/button
-          url: '#contact-form'
+          url: '#join-waitlist-form'
           open_in_new_tab: false
-          text: Contact us
+          text: Join Waitlist
           variant: primary
           arrow: right
           onclick:

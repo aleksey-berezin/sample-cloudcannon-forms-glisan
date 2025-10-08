@@ -1,4 +1,21 @@
 {% assign_local c = "c-text-input" %}
+{% if hidden %}
+    <input type="hidden" id="{{ id }}" name="{{ label }}" value="{{ placeholder }}">
+{% elsif readonly %}
+<div class="{{ c }}">
+    <label class="{{ c }}__label" for="{{ id }}">{{ label }}{% if required %} *{% endif %}</label>
+    <input class="{{ c }}__input {{ c }}__input--readonly"
+        type="text" id="{{ id }}" 
+        name="{{ label }}" 
+        value="{{ placeholder }}"
+        readonly
+        {% if helper_text %}aria-describedby="{{ id }}--helper"{% endif %}>
+
+    {% if helper_text %}
+        {% bookshop "generic/form/helper-text" id={{ id }} helper_text={{ helper_text }} %}
+    {% endif %}
+</div>
+{% else %}
 <div class="{{ c }}">
     <label class="{{ c }}__label" for="{{ id }}">{{ label }}{% if required %} *{% endif %}</label>
     <input class="{{ c }}__input"
@@ -16,3 +33,4 @@
 
     {% bookshop "generic/form/error-message" id={{ id }} %}
 </div>
+{% endif %}

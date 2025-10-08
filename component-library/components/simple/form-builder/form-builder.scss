@@ -8,4 +8,29 @@
         text-align: center;
     }
 
+    /* Two-column layout for form fields */
+    &--two-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--gap-large) var(--gap-medium);
+        
+        /* Full-width items span both columns */
+        .c-form-builder__full-width {
+            grid-column: 1 / -1;
+        }
+        
+        /* Submit button spans both columns */
+        &__submit-button {
+            grid-column: 1 / -1;
+        }
+        
+        /* Mobile: single column */
+        @media screen and (max-width: 768px) {
+            grid-template-columns: 1fr;
+            
+            .c-form-builder__full-width {
+                grid-column: 1;
+            }
+        }
+    }
 }

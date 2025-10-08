@@ -1,5 +1,5 @@
 {% assign_local c = "c-form-builder" %}
-<form class="{{ c }}"
+<form class="{{ c }} {{ c }}--{{ layout | default: 'single-column' }}"
     id="{{ id }}"
     action="{{ success_page }}"
     method="post"
@@ -7,7 +7,16 @@
     onsubmit="return validateFormSubmit(event, this)">
 
     {% for element in form_elements %}
-        {% bookshop "{{element._bookshop_name}}" bind: element %}
+        {% assign element_class = "" %}
+        {% if layout == 'two-column' %}
+            {% comment %} Full-width elements: textarea, checkbox-group, submit button {% endcomment %}
+            {% if element._bookshop_name contains 'text-area-input' or element._bookshop_name contains 'checkbox-group' %}
+                {% assign element_class = "c-form-builder__full-width" %}
+            {% endif %}
+        {% endif %}
+        <div class="{{ element_class }}">
+            {% bookshop "{{element._bookshop_name}}" bind: element %}
+        </div>
     {% endfor %}
 
     <input type="text" name="_gotcha" style="display: none;">
