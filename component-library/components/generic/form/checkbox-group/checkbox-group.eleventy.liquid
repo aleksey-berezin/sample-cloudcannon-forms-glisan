@@ -5,7 +5,7 @@
             <legend class="{{ c }}__group__label">{{ label }}</legend>
         {% endif %}
         <div class="{{ c }}__group__inputs {{ c }}__group__inputs--arrangement-{{ arrangement }}">
-            {% assign_local group_name = label | append: "-" | append: id %}
+            {% assign_local group_name = id %}
             {% for item in checkboxes %}
                 {% bookshop "generic/form/checkbox-input" bind:item group_name:group_name %}
             {% endfor %}

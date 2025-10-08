@@ -3,7 +3,7 @@
     <label class="{{ c }}__label" for="{{ id }}">{{ label }}{% if required %} *{% endif %}</label>
     <input class="{{ c }}__input"
         type="tel" id="{{ id }}" 
-        name="{{ label }}" 
+        name="{{ id }}" 
         placeholder="{{ placeholder }}"
         {% if required %}required{% endif %}
         onblur="validateInput(this)"

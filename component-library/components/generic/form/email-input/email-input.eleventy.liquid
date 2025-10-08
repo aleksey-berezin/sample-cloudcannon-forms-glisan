@@ -4,7 +4,7 @@
     <input class="{{ c }}__input"
         type="email" 
         id="{{ id }}" 
-        name="_replyto" 
+        name="{{ id }}" 
         placeholder="{{ placeholder }}"
         {% if required %}required{% endif %}
         onblur="validateInput(this)"
