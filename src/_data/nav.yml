@@ -1,5 +1,5 @@
-nav_logo_image: /assets/uploads/venture-logo.svg
-logo_text: Venture
+nav_logo_image: 
+logo_text: Lincoln Court Townhomes
 navigation_items:
   - label: Schedule a Tour
     link_url: /schedule-tour
