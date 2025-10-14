@@ -1,6 +1,9 @@
 nav_logo_image: 
 logo_text: Glisan Townhomes
 navigation_items:
+  - label: Gallery
+    link_url: /gallery
+    open_in_new_tab: false
   - label: Schedule a Tour
     link_url: /schedule-tour
     open_in_new_tab: false

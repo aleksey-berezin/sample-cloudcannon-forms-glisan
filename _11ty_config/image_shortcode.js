@@ -7,6 +7,15 @@ const IMAGE_OPTIONS = {
 	formats: ["avif", "webp", "svg", "jpeg"],
 	outputDir: "./_site/optimized/",
 	urlPath: "/optimized/",
+	filenameFormat: function (id, src, width, format) {
+		// Extract the base name of the source file
+		let baseName = path.basename(src, path.extname(src));
+		// Generate a hash from the source path for cache busting
+		const crypto = require('crypto');
+		const hash = crypto.createHash('md5').update(src).digest('hex').substring(0, 8);
+		// Return the formatted filename: originalname-width-hash.format
+		return `${baseName}-${width}-${hash}.${format}`;
+	},
 	// svgCompressionSize: "br",
 };
 
