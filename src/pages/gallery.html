@@ -14,23 +14,12 @@ permalink: /gallery/
     <div class="c-grid--gallery-images__gallery">
         <div class="c-gallery">
             <div class="c-gallery__tiles">
-                {% comment %}Debug: gallery_images size = {{ gallery_images | size }}{% endcomment %}
-                {% if gallery_images and gallery_images.size > 0 %}
-                    {% for image in gallery_images %}
-                    <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                        {% assign image_path = "/assets/images/gallery/" | append: image.filename %}
-                        {% assign alt_text = image.alt | default: "Gallery image" %}
-                        {% image image_path, alt_text, "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                    </div>
-                    {% endfor %}
-                {% else %}
-                    {% comment %}Fallback: Use hardcoded images if YAML data is not available{% endcomment %}
-                    {% for i in (1..28) %}
-                    <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                        {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-" | append: i | append: ".jpg", "Beautiful Lincoln Street townhouse image", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                    </div>
-                    {% endfor %}
-                {% endif %}
+                {% for i in (1..28) %}
+                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
+                    {% assign image_path = "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-" | append: i | append: ".jpg" %}
+                    {% image image_path, "Beautiful Lincoln Street townhouse image", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
+                </div>
+                {% endfor %}
             </div>
             <div class="c-gallery__button">
                 <button class="c-button c-button--primary c-button--arrow-down">Load More Photos</button>
