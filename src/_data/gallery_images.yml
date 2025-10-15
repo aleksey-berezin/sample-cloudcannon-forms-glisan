@@ -1,0 +1,280 @@
+gallery_images:
+  - id: "unit-114-1"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-1.jpg"
+    alt: "Beautiful Lincoln Street townhouse exterior with modern design"
+    title: "Modern Townhouse Exterior - Unit 114"
+    caption: "Contemporary townhouse featuring clean lines and modern architecture"
+    description: "This stunning townhouse showcases modern design elements including large windows, contemporary siding, and professional landscaping. Perfect for families seeking modern living."
+    category: "exterior"
+    featured: true
+    order: 1
+
+  - id: "unit-114-2"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-2.jpg"
+    alt: "Spacious living room with contemporary finishes and natural light"
+    title: "Modern Living Room - Unit 114"
+    caption: "Bright and airy living space with modern finishes"
+    description: "Open-concept living room featuring large windows, modern lighting, and contemporary finishes. Ideal for entertaining and daily living."
+    category: "interior"
+    featured: true
+    order: 2
+
+  - id: "unit-114-3"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-3.jpg"
+    alt: "Modern kitchen with stainless steel appliances and elegant countertops"
+    title: "Gourmet Kitchen - Unit 114"
+    caption: "State-of-the-art kitchen with premium appliances"
+    description: "Chef-inspired kitchen featuring stainless steel appliances, quartz countertops, and modern cabinetry. Perfect for culinary enthusiasts."
+    category: "interior"
+    featured: true
+    order: 3
+
+  - id: "unit-114-4"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-4.jpg"
+    alt: "Master bedroom with contemporary design and ample storage"
+    title: "Master Suite - Unit 114"
+    caption: "Spacious master bedroom with modern amenities"
+    description: "Luxurious master bedroom featuring walk-in closet, modern fixtures, and contemporary design elements for ultimate comfort."
+    category: "interior"
+    featured: false
+    order: 4
+
+  - id: "unit-114-5"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-5.jpg"
+    alt: "Elegant bathroom with modern fixtures and spa-like features"
+    title: "Master Bathroom - Unit 114"
+    caption: "Spa-inspired master bathroom with premium finishes"
+    description: "Luxurious master bathroom featuring modern fixtures, elegant tile work, and spa-like amenities for ultimate relaxation."
+    category: "interior"
+    featured: false
+    order: 5
+
+  - id: "unit-114-6"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-6.jpg"
+    alt: "Guest bedroom with versatile design and natural light"
+    title: "Guest Bedroom - Unit 114"
+    caption: "Flexible guest bedroom perfect for visitors"
+    description: "Versatile guest bedroom that can serve as a home office or additional living space. Features natural light and modern design."
+    category: "interior"
+    featured: false
+    order: 6
+
+  - id: "unit-114-7"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-7.jpg"
+    alt: "Private outdoor space with modern landscaping"
+    title: "Private Patio - Unit 114"
+    caption: "Private outdoor living space with modern design"
+    description: "Exclusive private patio featuring modern landscaping, outdoor lighting, and space for outdoor dining and relaxation."
+    category: "exterior"
+    featured: false
+    order: 7
+
+  - id: "unit-114-8"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-8.jpg"
+    alt: "Community amenities including fitness center"
+    title: "Fitness Center - Community Amenities"
+    caption: "State-of-the-art fitness center for residents"
+    description: "Modern fitness center featuring premium equipment, natural light, and contemporary design. Available to all residents."
+    category: "amenities"
+    featured: true
+    order: 8
+
+  - id: "unit-114-9"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-9.jpg"
+    alt: "Community pool and recreation area"
+    title: "Community Pool - Recreation Area"
+    caption: "Resort-style pool and recreation facilities"
+    description: "Beautiful community pool area with modern amenities, lounge seating, and recreational facilities for residents to enjoy."
+    category: "amenities"
+    featured: true
+    order: 9
+
+  - id: "unit-114-10"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-10.jpg"
+    alt: "Community clubhouse with modern design"
+    title: "Community Clubhouse - Social Space"
+    caption: "Modern clubhouse for community events and gatherings"
+    description: "Contemporary clubhouse featuring modern amenities, event space, and social areas for community gatherings and resident events."
+    category: "amenities"
+    featured: false
+    order: 10
+
+  - id: "unit-114-11"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-11.jpg"
+    alt: "Garage parking with modern design"
+    title: "Garage Parking - Unit 114"
+    caption: "Private garage parking with modern features"
+    description: "Private garage parking featuring modern design, security features, and convenient access to the townhouse."
+    category: "exterior"
+    featured: false
+    order: 11
+
+  - id: "unit-114-12"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-12.jpg"
+    alt: "Community walking paths and landscaping"
+    title: "Community Landscaping - Walking Paths"
+    caption: "Beautiful community landscaping and walking paths"
+    description: "Well-maintained community landscaping featuring walking paths, green spaces, and modern design elements throughout the property."
+    category: "amenities"
+    featured: false
+    order: 12
+
+  - id: "unit-114-13"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-13.jpg"
+    alt: "Modern laundry room with premium appliances"
+    title: "Laundry Room - Unit 114"
+    caption: "Convenient laundry room with modern appliances"
+    description: "Functional laundry room featuring modern appliances, storage solutions, and convenient access for daily household tasks."
+    category: "interior"
+    featured: false
+    order: 13
+
+  - id: "unit-114-14"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-14.jpg"
+    alt: "Storage solutions and utility areas"
+    title: "Storage Solutions - Unit 114"
+    caption: "Ample storage throughout the townhouse"
+    description: "Thoughtfully designed storage solutions including built-in storage, utility areas, and organizational features throughout the home."
+    category: "interior"
+    featured: false
+    order: 14
+
+  - id: "unit-114-15"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-15.jpg"
+    alt: "Modern lighting and electrical features"
+    title: "Modern Lighting - Unit 114"
+    caption: "Contemporary lighting and electrical systems"
+    description: "Modern lighting design featuring contemporary fixtures, energy-efficient systems, and smart home capabilities throughout the townhouse."
+    category: "interior"
+    featured: false
+    order: 15
+
+  - id: "unit-114-16"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-16.jpg"
+    alt: "HVAC and climate control systems"
+    title: "Climate Control - Unit 114"
+    caption: "Efficient heating and cooling systems"
+    description: "Modern HVAC systems providing efficient climate control, energy savings, and optimal comfort throughout all seasons."
+    category: "interior"
+    featured: false
+    order: 16
+
+  - id: "unit-114-17"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-17.jpg"
+    alt: "Security features and smart home technology"
+    title: "Security & Smart Home - Unit 114"
+    caption: "Advanced security and smart home features"
+    description: "Modern security systems and smart home technology providing safety, convenience, and energy efficiency for modern living."
+    category: "interior"
+    featured: false
+    order: 17
+
+  - id: "unit-114-18"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-18.jpg"
+    alt: "Energy-efficient windows and insulation"
+    title: "Energy Efficiency - Unit 114"
+    caption: "Energy-efficient design and materials"
+    description: "Modern energy-efficient features including high-performance windows, insulation, and sustainable building materials for reduced utility costs."
+    category: "interior"
+    featured: false
+    order: 18
+
+  - id: "unit-114-19"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-19.jpg"
+    alt: "Community maintenance and landscaping services"
+    title: "Community Maintenance - Landscaping"
+    caption: "Professional maintenance and landscaping services"
+    description: "Comprehensive community maintenance including professional landscaping, exterior upkeep, and common area maintenance for resident convenience."
+    category: "amenities"
+    featured: false
+    order: 19
+
+  - id: "unit-114-20"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-20.jpg"
+    alt: "Community events and social activities"
+    title: "Community Events - Social Activities"
+    caption: "Regular community events and social activities"
+    description: "Active community featuring regular social events, resident activities, and community engagement opportunities for all residents."
+    category: "amenities"
+    featured: false
+    order: 20
+
+  - id: "unit-114-21"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-21.jpg"
+    alt: "Pet-friendly community features"
+    title: "Pet-Friendly Community - Unit 114"
+    caption: "Pet-friendly amenities and policies"
+    description: "Pet-friendly community featuring designated pet areas, walking paths, and amenities designed for residents with pets."
+    category: "amenities"
+    featured: false
+    order: 21
+
+  - id: "unit-114-22"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-22.jpg"
+    alt: "Community safety and security measures"
+    title: "Community Security - Safety Features"
+    caption: "Comprehensive security and safety measures"
+    description: "Advanced security systems, lighting, and safety measures throughout the community providing peace of mind for all residents."
+    category: "amenities"
+    featured: false
+    order: 22
+
+  - id: "unit-114-23"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-23.jpg"
+    alt: "Community parking and vehicle access"
+    title: "Community Parking - Vehicle Access"
+    caption: "Convenient parking and vehicle access"
+    description: "Well-designed parking areas, vehicle access points, and traffic flow management ensuring convenient and safe access for all residents."
+    category: "amenities"
+    featured: false
+    order: 23
+
+  - id: "unit-114-24"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-24.jpg"
+    alt: "Community waste management and recycling"
+    title: "Waste Management - Recycling Program"
+    caption: "Efficient waste management and recycling programs"
+    description: "Modern waste management systems including recycling programs, convenient disposal areas, and environmental sustainability initiatives."
+    category: "amenities"
+    featured: false
+    order: 24
+
+  - id: "unit-114-25"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-25.jpg"
+    alt: "Community utilities and infrastructure"
+    title: "Community Utilities - Infrastructure"
+    caption: "Modern utilities and infrastructure systems"
+    description: "State-of-the-art utility systems including high-speed internet, cable, and modern infrastructure supporting modern living needs."
+    category: "amenities"
+    featured: false
+    order: 25
+
+  - id: "unit-114-26"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-26.jpg"
+    alt: "Community accessibility and ADA compliance"
+    title: "Accessibility - ADA Compliance"
+    caption: "Fully accessible community with ADA compliance"
+    description: "Comprehensive accessibility features including ADA-compliant design, accessible parking, and inclusive community amenities for all residents."
+    category: "amenities"
+    featured: false
+    order: 26
+
+  - id: "unit-114-27"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-27.jpg"
+    alt: "Community sustainability and green initiatives"
+    title: "Sustainability - Green Initiatives"
+    caption: "Environmental sustainability and green living"
+    description: "Community-wide sustainability initiatives including energy-efficient systems, green building materials, and environmental conservation programs."
+    category: "amenities"
+    featured: false
+    order: 27
+
+  - id: "unit-114-28"
+    filename: "230-lincoln-st-fairview-or-97024-unit-114-28.jpg"
+    alt: "Community location and neighborhood amenities"
+    title: "Location - Neighborhood Amenities"
+    caption: "Prime location with nearby amenities and services"
+    description: "Convenient location near shopping, dining, entertainment, and essential services, providing easy access to everything residents need."
+    category: "location"
+    featured: true
+    order: 28

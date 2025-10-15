@@ -14,90 +14,12 @@ permalink: /gallery/
     <div class="c-grid--gallery-images__gallery">
         <div class="c-gallery">
             <div class="c-gallery__tiles">
+                {% for image in gallery_images %}
                 <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-1.jpg", "Beautiful Lincoln Street townhouse exterior with modern design", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
+                    {% assign image_path = "/assets/images/gallery/" | append: image.filename %}
+                    {% image image_path, image.alt, "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
                 </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-2.jpg", "Spacious living room with contemporary finishes and natural light", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-3.jpg", "Modern kitchen with stainless steel appliances and elegant countertops", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-4.jpg", "Comfortable bedroom with contemporary furnishings and ample storage", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-5.jpg", "Updated bathroom with modern fixtures and elegant design", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-6.jpg", "Additional living space with modern amenities", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-7.jpg", "Well-appointed interior space with contemporary design", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-8.jpg", "Modern townhouse interior with quality finishes", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-9.jpg", "Additional bedroom space with contemporary styling", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-10.jpg", "Modern bathroom with updated fixtures and design", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-11.jpg", "Contemporary living space with modern amenities", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-12.jpg", "Additional interior space showcasing quality finishes", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-13.jpg", "Elegant dining area with modern lighting and finishes", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-14.jpg", "Spacious master suite with walk-in closet", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-15.jpg", "Updated laundry room with modern appliances", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-16.jpg", "Beautiful hardwood floors throughout main living areas", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-17.jpg", "Modern fixtures and finishes in guest bathroom", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-18.jpg", "Additional storage space and utility area", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-19.jpg", "Well-lit hallway with modern design elements", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-20.jpg", "Contemporary lighting fixtures and modern touches", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-21.jpg", "Additional bedroom with ample natural light", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-22.jpg", "Modern window treatments and quality finishes", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-23.jpg", "Updated electrical outlets and modern conveniences", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-24.jpg", "Quality construction details and craftsmanship", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-25.jpg", "Modern HVAC system and energy-efficient features", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-26.jpg", "Additional closet space and storage solutions", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-27.jpg", "Modern door hardware and quality fixtures", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
-                <div class="c-gallery__tiles__tile c-gallery__tiles__tile--hidden">
-                    {% image "/assets/images/gallery/230-lincoln-st-fairview-or-97024-unit-114-28.jpg", "Final view showcasing the complete modern townhouse", "c-image", "(min-width: 1200px) 600px, (min-width: 769px) 500px, (min-width: 480px) 80vw, 90vw", true %}
-                </div>
+                {% endfor %}
             </div>
             <div class="c-gallery__button">
                 <button class="c-button c-button--primary c-button--arrow-down">Load More Photos</button>
