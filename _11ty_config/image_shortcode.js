@@ -3,7 +3,7 @@ const fs = require("fs");
 const Image = require("@11ty/eleventy-img");
 
 const IMAGE_OPTIONS = {
-	widths: [400, 800, 1280, 1600],
+	widths: [400, 800, 1280, 1600, 2000],
 	formats: ["avif", "webp", "svg", "jpeg"],
 	outputDir: "./_site/optimized/",
 	urlPath: "/optimized/",
@@ -15,6 +15,20 @@ const IMAGE_OPTIONS = {
 		const hash = crypto.createHash('md5').update(src).digest('hex').substring(0, 8);
 		// Return the formatted filename: originalname-width-hash.format
 		return `${baseName}-${width}-${hash}.${format}`;
+	},
+	// More aggressive compression settings for maximum file size reduction
+	avifOptions: {
+		quality: 60, // Very aggressive compression
+		speed: 2,    // Slower but better compression
+	},
+	webpOptions: {
+		quality: 65, // Very aggressive compression
+		method: 6,   // Best compression algorithm
+	},
+	jpegOptions: {
+		quality: 75, // More aggressive compression
+		progressive: true,
+		optimize: true,
 	},
 	// svgCompressionSize: "br",
 };
